@@ -122,3 +122,9 @@ STATIC_URL = '/static/'
 
 # Мои настройки
 LOGIN_URL = '/users/login/'
+
+# Настройки django-bootstrap3
+BOOTSTRAP3 = {
+    'include_jquery': True,
+    }
+
